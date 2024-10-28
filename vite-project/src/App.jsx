@@ -1,9 +1,14 @@
+import Chai from "./Chai";
 
 function App() {
+  const username = "chai aur code";
 
   return (
-   <h1>Chai aur React with Vite | Ammar</h1>
-  )
+    <>
+      <Chai />
+      <h1>Chai aur React with {username}</h1>
+    </>
+  );
 }
 
-export default App
+export default App;
