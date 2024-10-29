@@ -5,11 +5,15 @@ function App() {
   const [counter, setCounter] = useState(15);
 
   const addValue = () => {
-    if (counter == 20) {
-      setCounter(counter);
-    } else {
-      setCounter(counter + 1);
-    }
+    // if (counter == 20) {
+    //   setCounter(counter);
+    // } else {
+    //   setCounter(counter + 1);
+    // }
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
   };
 
   const removeValue = () => {
